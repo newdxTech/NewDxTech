@@ -30,14 +30,16 @@ function App() {
           <img src="logo.png" alt="NewDx Tech Logo" className="logo-image" />
           <h1>NewDx Tech</h1>
         </div>
-        <nav>
-          <ul>
-            <li><a href="#hero">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
+        <div className="navbar">
+          <nav>
+            <ul>
+              <li><a href="#hero">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
       </header>
 
       <section id="hero">
@@ -55,10 +57,7 @@ function App() {
         <h2>About Us</h2>
         <p className="text">
           At NewDx Tech, our mission is to empower businesses and individuals through innovation and technological excellence. We are dedicated to delivering state-of-the-art solutions that address the evolving needs of our clients. With a strong emphasis on security, quality, and client satisfaction, our
-        </p> 
-        <p className="text1">
-          team of experts leverages cutting-edge technologies to drive growth and success.
-        </p>
+          team of experts leverages cutting-edge technologies to drive growth and success.</p>
       </section>
 
       <section id="services">
@@ -69,7 +68,7 @@ function App() {
             <p>We build robust and scalable web applications using the latest technologies.</p>
           </li>
           <li>
-            <h3>AI & ML Projects</h3>
+            <h3>AI & ML Solutions</h3>
             <p>Transform your data into actionable insights with our AI and Machine Learning solutions.</p>
           </li>
           <li>
@@ -77,19 +76,11 @@ function App() {
             <p>Create personalized chatbot experiences for your business to enhance customer engagement.</p>
           </li>
           <li>
-            <h3>Final Year Projects</h3>
-            <p>Get assistance in developing innovative and impactful final year projects.</p>
-          </li>
-          <li>
-            <h3>Mini Projects</h3>
-            <p>We provide support for a variety of mini projects that are both educational and practical.</p>
-          </li>
-          <li>
-            <h3>Cybersecurity Consulting</h3>
+            <h3>Cybersecurity Solutions</h3>
             <p>Our future offerings include expert cybersecurity consulting to protect your business.</p>
           </li>
           <li>
-            <h3>E-Learning</h3>
+            <h3>LSM Portal</h3>
             <p>We offer classes and workshops on the latest tech topics and aptitudes to keep you ahead in the field.</p>
           </li>
         </ul>
