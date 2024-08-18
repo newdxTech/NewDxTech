@@ -89,7 +89,7 @@ function App() {
       <section id="contact">
         <h2>Contact Us</h2>
 
-        <form action="https://formspree.io/f/myyavvro" method="POST">
+        <form action="https://formspree.io/f/xrbzlapb" method="POST">
           <div className="form-element">
             <input 
               type="text" 
